@@ -100,12 +100,8 @@ nav a:active,nav a:hover{
 
   header nav ul{
     clear: right;
-    margin: 0 auto;
-    position: absolute;
-    width:100%;
-    height:auto;
-    top: 15%;
-    left: -100%;
+    margin: 2rem auto;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
