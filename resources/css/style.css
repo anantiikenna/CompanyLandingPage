@@ -437,7 +437,6 @@ h2{
 @media screen and (max-width: 1200px) {
   #adv {
     align-items: center;
-    padding: 0rem 5rem;
   }
 
   #adv .dsection{
@@ -520,7 +519,6 @@ footer p{
 
 footer input[type='text']{
   padding: 1rem;
-  padding: 1rem;
   border-radius: 0.375rem 0rem 0rem 0.375rem;  
   border: 1px solid #D6D6D6;
   background: #FFF;
@@ -550,7 +548,7 @@ footer .contentf{
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    padding: 0rem 5rem;
+    padding: 0rem 3rem;
     margin-bottom: 5rem;
   }
 
