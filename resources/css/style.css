@@ -6,6 +6,7 @@ html{
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   color:#fff;
+  margin: 0px;
 }
 
 body {
@@ -98,6 +99,8 @@ nav a:active,nav a:hover{
   }
 
   header nav ul{
+    clear: right;
+    margin: 0 auto;
     position: absolute;
     width:100%;
     height:auto;
@@ -126,6 +129,7 @@ nav a:active,nav a:hover{
 
   #check:checked ~ #menu{
     left: 0;
+  
   }
 
   nav a:active,nav a:hover{
@@ -139,6 +143,7 @@ main{
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  padding: 1rem 2.5rem;
 }
 
 .container{
@@ -146,7 +151,6 @@ main{
   display: flex;
   height: auto;
   margin-top: 1rem;
-  padding: 0rem 3.25rem;
   justify-content: center;
   align-items: start;
   gap: 2.5rem;
@@ -198,10 +202,9 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     height: auto;
     margin: 0;
-    padding: 0rem 1rem;
     row-gap:2.5rem;
     align-self: center;
   }
@@ -297,7 +300,6 @@ button {
 section{
   margin: 0;
   display: flex;
-  padding: 2.5rem 3.5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -467,7 +469,7 @@ footer{
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 0rem 4rem;
+  padding: 1rem 2.5rem;
   margin-bottom: 5rem;
 }
 
